@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 27% 25% 30% 15%;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1%;
+    grid-template-areas: 
+    "strinch1 strinch1 strinch1 strinch1 strinch1"
+    "strinch2 strinch2 strinch2 strinch2 strinch2"
+    "strinch2 strinch2 strinch2 strinch2 strinch2"
+    "strinch3 strinch3 strinch3 strinch3 strinch3";
+}
+
+header{
+    background-color: #0055ffbd;
+    grid-area: strinch1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+header img{
+    width: 7vw;
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+header a{
+    width: 5vw;
+    height: 5vh;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 0.3rem;
+    padding: 0.4rem;
+    text-decoration: none;
+    color: blue;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+header a:hover{
+    color:#fff;
+    background-color: #0055ffbd;
+}
+
+main{
+    background-color: #0055ffbd;
+    grid-area: strinch2;
+    display: flex;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.SectionOne{
+    width: 30vw;
+    height: 45vh;
+    background-color: #000000dd;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.titulo{
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0055ffbd;
+    margin: 0.5rem;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.descripcion{
+    width: 25vw;
+    height: 24vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    margin: 0.5rem;
+    border-radius: 10px;
+    text-align: justify;
+    font:caption;
+}
+
+.SectionTwo{
+    width: 65vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    background-color: #000000dd;
+    margin: 2rem;
+    border-radius: 10px;
+    gap:3rem;
+}
+
+
+.tituloTwo{
+    width: 10vw;
+    height: 2vh;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nombre-proyectos{
+    display: flex;
+    width: 10vw;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    gap: 19rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color:#fff;
+}
+
+.eventoUno{
+    width: 10vw;
+    height: 5vh;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color:#000;
+    background-color: #fff;
+}
+
+.eventoUno:hover{
+    color:#fff;
+    background-color: #0055ffbd;
+}
+
+.eventoDos{
+    width: 10vw;
+    height: 5vh;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color:#000;
+    background-color: #fff;
+}
+
+.eventoDos:hover{
+    color:#fff;
+    background-color: #0055ffbd;
+}
+
+.eventoTres{
+    width: 10vw;
+    height: 5vh;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color:#000;
+    background-color: #fff;
+}
+
+.eventoTres:hover{
+    color:#fff;
+    background-color: #0055ffbd;
+}
+
+.container-img{
+    width: 10vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: -2rem;
+    cursor: pointer;
+}
+
+img{
+    width: 15vw;
+    height: 18vh;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 3px #fff;
+}
+
+footer{
+    background-color: #0055ffbd;
+    grid-area: strinch3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 10px;
+    color: #fff;
+}
+
+footer div p{
+    font-size: 3rem;
+    font: caption;
+}
+
+
+.info{
+    width: 16vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25rem;
+}
+
+.GitHub{
+    color:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 2   vh;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font: caption;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.GitHub:hover{
+    color:#fff;
+    background-color: #0055ffbd;
+}
